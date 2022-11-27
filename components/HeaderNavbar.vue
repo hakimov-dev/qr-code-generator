@@ -1,7 +1,7 @@
 <template>
   <div class="navbar bg-white shadow-xl h-[10vh] flex items-center">
     <div class="content container mx-auto flex items-center justify-between">
-      <nuxt-link class="logo" to="/">Qr code generator</nuxt-link>
+      <nuxt-link class="logo" to="/">Qr-code generator</nuxt-link>
 
       <div class="links flex items-center justify-between">
         <a-tooltip placement="bottom">
