@@ -25,5 +25,5 @@
 </template>
 
 <script setup>
-
+import { createQrCode } from '@/store/getQrCode.js'
 </script>
