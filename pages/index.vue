@@ -16,9 +16,9 @@
       <br>
     </template>
     <template #actions>
-       <p class="text-[16px] text-blue-400">SVG</p>
+       <p class="text-[16px] text-blue-400" @click="downloadSVG(newQrCodeImg)">SVG</p>
        <p class="text-[16px] text-blue-400" @click="downloadPNG(newQrCodeImg)">PNG</p>
-       <p class="text-[16px] text-blue-400">JPG</p>
+       <p class="text-[16px] text-blue-400" @click="downloadJPG(newQrCodeImg)">JPG</p>
     </template>
   </a-card>
   </div>
