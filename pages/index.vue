@@ -40,7 +40,7 @@ export default{
     generateNewQrCode(){
       if(this.text.length > 0){
         this.newQrCodeImg = this.$config.secretText + this.text
-        this.$store.state.newQrCodeUrl = this.newQrCodeImg
+        // this.$store.state.newQrCodeUrl = this.newQrCodeImg
         notification['success']({
          message: 'Generated new QR-CODE successfully',
          duration: 3
