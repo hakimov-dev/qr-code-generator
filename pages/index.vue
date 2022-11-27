@@ -25,7 +25,5 @@
 </template>
 
 <script setup>
-import { createQrCode } from '@/store/getQrCode.js'
-
-const qrCode = createQrCode()
+import { ref } from 'vue'
 </script>
