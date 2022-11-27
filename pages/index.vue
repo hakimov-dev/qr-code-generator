@@ -26,6 +26,7 @@
 
 <script>
 import { notification } from 'ant-design-vue'
+import { downloadPNG, downloadSVG, downloadJPG } from '@/utils/download.js'
 export default{
   name: 'indexPage',
   data() {
