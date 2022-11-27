@@ -6,7 +6,7 @@
       <img
         alt="example"
         class="w-[400px] h-[300px] pointer-events-none select-none"
-        src="../assets/imgs/default.png"
+        :src="newQrCodeImg || require('../assets/imgs/default.png')"
       />
       <br>
       <div class="flex w-[90%] text-center items-center justify-center flex-col">
