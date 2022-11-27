@@ -11,7 +11,7 @@
       <br>
       <div class="flex w-[90%] text-center items-center justify-center flex-col">
         <a-input class="ml-[10%]" v-model:value="text" size="large" placeholder="Enter text for convert to qr-code" title="Qr-code"/>
-        <button class="px-[6px] py-[8px] rounded bg-blue-400 text-[16px] font-semibold text-white mt-4 ml-[10%] hover:-translate-y-2 hover:bg-black">Generate QR-CODE</button>
+        <button @click="qrCode.qrCode" class="px-[6px] py-[8px] rounded bg-blue-400 text-[16px] font-semibold text-white mt-4 ml-[10%] hover:-translate-y-2 hover:bg-black">Generate QR-CODE</button>
       </div>
       <br>
     </template>
@@ -28,5 +28,4 @@
 import { createQrCode } from '@/store/getQrCode.js'
 
 const qrCode = createQrCode()
-const text = ''
 </script>
