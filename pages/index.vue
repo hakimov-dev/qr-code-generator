@@ -26,4 +26,6 @@
 
 <script setup>
 import { createQrCode } from '@/store/getQrCode.js'
+
+const qrCode = createQrCode()
 </script>
