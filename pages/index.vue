@@ -24,11 +24,18 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue'
+<script>
+export default{
+  name: 'indexPage',
+  data() {
+    return {
+      text: '',
+      newQrCodeImg: null
+    }
+  },
 
-const text = ref('')
-const newQrCodeImg = ref(null)
-
-
+  methods: {
+    
+  },
+}
 </script>
