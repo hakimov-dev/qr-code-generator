@@ -28,4 +28,5 @@
 import { createQrCode } from '@/store/getQrCode.js'
 
 const qrCode = createQrCode()
+const text = ''
 </script>
