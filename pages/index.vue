@@ -16,9 +16,9 @@
       <br>
     </template>
     <template #actions>
-       <p class="text-[16px] text-blue-400">SVG</p>
-       <p class="text-[16px] text-blue-400">PNG</p>
-       <p class="text-[16px] text-blue-400">JPG</p>
+       <a href="#" class="text-[16px] text-blue-400">SVG</a>
+       <a href="#" class="text-[16px] text-blue-400">PNG</a>
+       <a href="#" class="text-[16px] text-blue-400">JPG</a>
     </template>
   </a-card>
   </div>
