@@ -7,6 +7,9 @@ export const createQrCode = defineStore({
       newQrCodeLink: null,
     }), 
     actions: {
-
+      generateQrCode(text){
+        this.newQrCodeLink = process.env.SECRET_TEXT + text
+        console.log(this.newQrCodeLink)
+      }
     }
 })
