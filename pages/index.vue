@@ -36,12 +36,16 @@ export default{
 
   methods: {
     generateNewQrCode(){
-      
+      if(this.text.length > 0){
+
+      }else{
+        
+      }
     }
   },
 
   mounted() {
-    
+
   },
 }
 </script>
