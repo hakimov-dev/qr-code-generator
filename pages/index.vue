@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import { notification } from 'ant-design-vue'
 export default{
   name: 'indexPage',
   data() {
@@ -39,7 +40,7 @@ export default{
       if(this.text.length > 0){
 
       }else{
-        
+
       }
     }
   },
