@@ -6,7 +6,7 @@
       <div class="links flex items-center justify-between">
         <a-tooltip placement="bottom">
           <template #title>
-            <span>Github link to project</span>
+            <span>Project source code</span>
           </template>
           <a href="https://github.com/hakimov-dev/" target="_blank"
             ><svg
