@@ -30,13 +30,13 @@
         <br />
       </template>
       <template #actions>
-        <p class="text-[16px] text-blue-400" @click="downloadSVG(newQrCodeImg)">
+        <p class="text-[16px] text-blue-400" @click="downloadSVG(newQrCodeImg || require('../assets/imgs/default.png'))">
           SVG
         </p>
-        <p class="text-[16px] text-blue-400" @click="downloadPNG(newQrCodeImg)">
+        <p class="text-[16px] text-blue-400" @click="downloadPNG(newQrCodeImg || require('../assets/imgs/default.png'))">
           PNG
         </p>
-        <p class="text-[16px] text-blue-400" @click="downloadJPG(newQrCodeImg)">
+        <p class="text-[16px] text-blue-400" @click="downloadJPG(newQrCodeImg || require('../assets/imgs/default.png'))">
           JPG
         </p>
       </template>
