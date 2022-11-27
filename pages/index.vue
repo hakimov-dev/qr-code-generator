@@ -43,6 +43,7 @@ export default{
          message: 'Generated new QR-CODE successfully',
          duration: 3
        });
+       this.text = ''
       }else{
       notification['error']({
         message: 'You need enter some text or anything in input!',
