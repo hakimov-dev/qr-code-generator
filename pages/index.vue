@@ -39,6 +39,10 @@ export default{
     generateNewQrCode(){
       if(this.text.length > 0){
         this.newQrCodeImg = this.$config.secretText + this.text
+        notification['success']({
+         message: 'Generated new QR-CODE successfully',
+         duration: 3
+       });
       }else{
       notification['error']({
         message: 'You need enter some text or anything in input!',
