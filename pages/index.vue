@@ -35,7 +35,9 @@ export default{
   },
 
   methods: {
-    
+    generateNewQrCode(){
+      
+    }
   },
 
   mounted() {
