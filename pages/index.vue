@@ -40,7 +40,10 @@ export default{
       if(this.text.length > 0){
 
       }else{
-
+      notification['error']({
+        message: 'You need enter some text or anything in input!',
+        duration: 3
+      });
       }
     }
   },
