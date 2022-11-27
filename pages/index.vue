@@ -10,7 +10,7 @@
       />
       <br>
       <div class="flex w-[90%] text-center items-center justify-center flex-col">
-        <a-input class="ml-[10%]" v-model:value="text" size="large" placeholder="Enter text for convert to qr-code" title="Qr-code"/>
+        <a-input @keypress.enter="generateNewQrCode" class="ml-[10%]" v-model:value="text" size="large" placeholder="Enter text for convert to qr-code" title="Qr-code"/>
         <button @click="generateNewQrCode" class="px-[6px] py-[8px] rounded bg-blue-400 text-[16px] font-semibold text-white mt-4 ml-[10%] hover:-translate-y-2 hover:bg-black">Generate QR-CODE</button>
       </div>
       <br>
