@@ -1,4 +1,4 @@
-#   Hi, welcome Qr-code generator application
+#  Qr-code-generator
 
 ![image](https://user-images.githubusercontent.com/83240328/204140836-fce38291-5448-44ca-b5c6-9eb6c13f1b38.png)
 
