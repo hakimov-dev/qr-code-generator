@@ -1,4 +1,22 @@
-# qr-code-generator
+#  Qr-code-generator
+
+![image](https://user-images.githubusercontent.com/83240328/204140836-fce38291-5448-44ca-b5c6-9eb6c13f1b38.png)
+
+<p align="center">
+<img src="https://img.shields.io/badge/Build-automated-blue" />
+<img src="https://img.shields.io/github/languages/code-size/hakimov-dev/qr-code-generator" />
+<img src="https://img.shields.io/bitbucket/issues/hakimov-dev/qr-code-generator">
+<img src="https://img.shields.io/github/last-commit/hakimov-dev/qr-code-generator">
+<img src="https://img.shields.io/github/package-json/v/hakimov-dev/qr-code-generator">
+<img src="https://img.shields.io/website?url=https%3A%2F%2Fqrcode-render.netlify.app%2F">
+<img src="https://img.shields.io/github/stars/hakimov-dev/qr-code-generator?style=flat&logo=github">
+<img src="https://img.shields.io/github/watchers/hakimov-dev/qr-code-generator?style=social">
+</p>
+
+## About of project 📋
+This aplication can help you for creating any qr-code. You need enter something at input and click generate btn and done. You have new generated qr-code.
+
+And you can download qr-code in three type 'png', 'svg', 'jpg' types all free :)
 
 ## Build Setup
 
